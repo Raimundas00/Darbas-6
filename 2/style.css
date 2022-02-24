@@ -1,0 +1,34 @@
+.main{
+height: 100vh;
+display: flex;
+flex-direction:row;
+width: 100%
+
+}
+.header{
+    background-color: aqua;
+  }
+  .as{
+      flex-direction: column;
+      width:100vh
+      
+  }
+  .virsus{
+      background-color: bisque;
+      flex-grow: 1;
+      height: 20vh;
+      padding-left: 15px;
+     
+      
+  }
+  .vidurys{
+      background-color: blue;
+      flex-grow: 2;
+      height: 60vh;
+      padding-left: 15px;
+  }
+  .apacia{
+      background-color:bisque;
+      height: 20vh;
+      padding-left: 15px;
+  }

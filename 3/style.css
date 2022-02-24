@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.article{
+    background-color: aqua;
+    flex-grow: 1;
+}
+.aside{
+    background-color:cornflowerblue ;
+    flex-grow: 3;
+}
+.nav{
+    background-color: darkcyan;
+    flex-grow: 1;
+}
+.header, .footer{
+height: 50vh;
+background-color: greenyellow;
+flex-flow: wrap;
+}
+.line{
+    display: flex;
+    height: 100%;
+}

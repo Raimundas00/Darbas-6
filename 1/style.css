@@ -1,0 +1,24 @@
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+    width: 100%
+}
+.nav{
+    background-color: aqua;
+}
+.vidurys{
+    
+    flex-direction: column;
+    width: 100vh;
+    height: 100vh;
+}
+.virsus, .apacia{
+    background-color: blue;
+    height: 20vh;
+}
+.pirmas, .antras{
+   height: 50vh;
+   flex-direction: row;
+ 
+}
